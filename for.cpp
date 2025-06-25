@@ -7,3 +7,4 @@ int main()
     }
     std::cout << "happy new year" << std::endl;
 }
+// repeat for specified amount of time
