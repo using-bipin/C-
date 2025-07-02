@@ -15,10 +15,10 @@ int main()
     scores[2] = 34565;
     scores[3] = 100;
     scores[4] = 540;
-    for (int i{0}; i < 5; ++i)
+    /*for (int i{0}; i < 5; ++i)
     {
         std::cout << "scores[" << i << "]" << scores[i] << std::endl;
-    }
+    }*/
 
     return 0;
 }
