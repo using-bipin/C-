@@ -2,16 +2,14 @@
 #include <string>
 using namespace std;
 
-// Global variables (for simplicity)
 string accountHolder;
 int accountNumber;
 double balance = 0.0;
 
-// Function to create an account
 void createAccount()
 {
     cout << "Enter account holder's name: ";
-    cin.ignore(); // Clear newline from buffer
+    cin.ignore();
     getline(cin, accountHolder);
     cout << "Enter account number: ";
     cin >> accountNumber;
@@ -20,7 +18,6 @@ void createAccount()
     cout << "Account created successfully!\n";
 }
 
-// Function to deposit money
 void deposit()
 {
     double amount;
@@ -37,7 +34,6 @@ void deposit()
     }
 }
 
-// Function to withdraw money
 void withdraw()
 {
     double amount;
@@ -54,7 +50,6 @@ void withdraw()
     }
 }
 
-// Function to display account info
 void displayAccount()
 {
     cout << "\n--- Account Details ---" << endl;
@@ -66,7 +61,7 @@ void displayAccount()
 int main()
 {
     int choice;
-    createAccount(); // Initialize the account first
+    createAccount();
 
     do
     {
